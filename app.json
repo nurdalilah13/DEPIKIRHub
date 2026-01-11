@@ -49,14 +49,18 @@
       ],
       "expo-sqlite",
       "expo-asset",
-      "expo-barcode-scanner",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow DEPIKIRHub to access your camera."
+        }
+      ],
       [
         "expo-build-properties",
         {
           "android": {
             "compileSdkVersion": 35,
-            "targetSdkVersion": 35,
-            "buildToolsVersion": "35.0.0"
+            "targetSdkVersion": 35
           }
         }
       ]
