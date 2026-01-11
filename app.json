@@ -49,7 +49,17 @@
       ],
       "expo-sqlite",
       "expo-asset",
-      "expo-barcode-scanner"
+      "expo-barcode-scanner",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          }
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
@@ -61,5 +71,6 @@
         "projectId": "1462c22d-eb8c-467b-a526-6de32fa055bc"
       }
     }
+    
   }
 }
