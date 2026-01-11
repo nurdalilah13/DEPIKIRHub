@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "707936053920",
+    "project_id": "depikirhub",
+    "storage_bucket": "depikirhub.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707936053920:android:8a78ca2c3f151c7dac77c5",
+        "android_client_info": {
+          "package_name": "com.DEPIKIRHub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_tiwpNF3o7SZqVucDBNCees5JparvvuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
