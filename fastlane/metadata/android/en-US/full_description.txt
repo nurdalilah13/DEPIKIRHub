@@ -1,0 +1,10 @@
+DEPIKIRHub is the central management application for the DEPIKIR community.
+
+<b>User Roles:</b>
+<ul>
+  <li><b>Admin:</b> Full control over system settings and user management.</li>
+  <li><b>Staff:</b> Access to operational tools and community moderation.</li>
+  <li><b>Member:</b> Personal dashboard and community interaction features.</li>
+</ul>
+
+Scan barcodes easily with our integrated camera tools to manage inventory and access.
