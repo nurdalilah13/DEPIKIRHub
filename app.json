@@ -12,7 +12,8 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.nextgen.depikirhub",
       "infoPlist": {
-        "NSCameraUsageDescription": "DEPIKIRHub needs access to your camera to scan barcodes."
+        "NSCameraUsageDescription": "DEPIKIRHub needs access to your camera to scan barcodes.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -26,7 +27,8 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "permissions": [
-        "android.permission.CAMERA"
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "web": {
