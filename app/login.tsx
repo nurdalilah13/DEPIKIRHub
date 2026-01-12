@@ -82,16 +82,18 @@ export default function LoginScreen() {
           autoCapitalize="none"
         />
       </View>
-
-      <View style={styles.passwordContainer}>
-  <TextInput
-    style={styles.passwordInput}
-    value={password}
-    onChangeText={setPassword}
-    secureTextEntry={!passwordVisible}
-    placeholder="Enter your password"
-    placeholderTextColor="#aaa"
-  />
+      
+      <View style={styles.inputContainer}>
+        <Text style={styles.label}>Password:</Text>
+        <View style={styles.passwordContainer}>
+          <TextInput
+            style={styles.passwordInput}
+            value={password}
+            onChangeText={setPassword}
+            secureTextEntry={!passwordVisible}
+            placeholder="Enter your password"
+            placeholderTextColor="#aaa"
+          />
 
   <TouchableOpacity onPress={() => setPasswordVisible(!passwordVisible)}>
     <Ionicons
@@ -101,6 +103,7 @@ export default function LoginScreen() {
       style={{ marginRight: 10 }}
     />
   </TouchableOpacity>
+</View>
 </View>
 
       <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
