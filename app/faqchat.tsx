@@ -32,7 +32,7 @@ import { auth, db } from '../firebase'; // Ensure your firebase.js exports 'auth
 // --- REAL AI SETUP (FREE) ---
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { Filter } from 'bad-words';
-const genAI = new GoogleGenerativeAI("AIzaSyAZh6tEoTfHjjCVDrbBim8tLeYnoOuGXl0");
+const genAI = new GoogleGenerativeAI("AIzaSyA7QoslFv2dac9Ismjbf3x8wdQUc-B2FxI");
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash", // or gemini-2.0-flash-exp
   systemInstruction: `
     **Role:** You are the official DEPIKIRHub Member Assistant. Your mission is to help members navigate the app, engage with the community, and stay informed about club events.

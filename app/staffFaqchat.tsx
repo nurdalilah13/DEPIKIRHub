@@ -31,7 +31,7 @@ import {
 import Accordion from 'react-native-collapsible/Accordion';
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { auth, db } from '../firebase';
-const genAI = new GoogleGenerativeAI("AIzaSyAZh6tEoTfHjjCVDrbBim8tLeYnoOuGXl0");
+const genAI = new GoogleGenerativeAI("AIzaSyA7QoslFv2dac9Ismjbf3x8wdQUc-B2FxI");
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash", // or gemini-2.0-flash-exp
   systemInstruction: `
     **Role:** You are the official DEPIKIRHub Staff Assistant. Your purpose is to assist STAFF and ADMINS in managing the community and navigating their management tools efficiently.
