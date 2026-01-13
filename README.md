@@ -22,7 +22,7 @@
 To install the app on your Android device without setting up a development environment:
 
 1. Go to the [Releases Page](https://github.com/nurdalilah13/DEPIKIRHub/releases).
-2. Download the latest `.apk` file (e.g., `DEPIKIRHub-v1.0.0.apk`).
+2. Download the latest `.apk` file (e.g., `DEPIKIRHub-v1.0.1.apk`).
 3. Open the file on your phone and follow the prompts to install.
    * *Note: You may need to enable "Install from Unknown Sources" in your Android settings.*
 
