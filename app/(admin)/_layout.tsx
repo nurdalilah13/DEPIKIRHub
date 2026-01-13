@@ -19,16 +19,6 @@ export default function AdminTabLayout() {
         },
       }}
     >
-      {/* Event Management */}
-      <Tabs.Screen
-        name="eventManagement"
-        options={{
-          title: 'Event',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="calendar-outline" size={size} color={color} />
-          ),
-        }}
-      />
 
       {/* Member List */}
       <Tabs.Screen
@@ -63,7 +53,7 @@ export default function AdminTabLayout() {
         }}
       />
 
-      {/* Attendance */}
+      {/* Commucnication */}
       <Tabs.Screen
         name="communication"
         options={{
