@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# 🚀 DEPIKIRHub
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![Latest Release](https://img.shields.io/github/v/release/nurdalilah13/DEPIKIRHub?label=Download%20APK&style=for-the-badge&color=blue)](https://github.com/nurdalilah13/DEPIKIRHub/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Runs with Expo](https://img.shields.io/badge/Runs%20with%20Expo-000.svg?style=for-the-badge&logo=EXPO&labelColor=f3f3f3&logoColor=000)](https://expo.dev/)
 
-## Get started
+**DEPIKIRHub** is a central management application designed for the DEPIKIR community. It streamlines operations by providing tailored modules for Administrators, Staff members, and General Members. Built with React Native and Expo, it offers a fast, cross-platform experience with integrated tools like barcode scanning.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Key Features
 
-2. Start the app
+- 🔐 **Role-Based Access:** Distinct interfaces and permissions for Admin, Staff, and Members.
+- 📸 **Smart Scanning:** Integrated barcode and QR code scanner (via `expo-camera`) for inventory and access management.
+- 📱 **Cross-Platform:** High-performance native experience on Android.
+- 🛠 **Management Suite:** Tools for community moderation, staff tasks, and member dashboards.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📥 Installation (For Users)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+To install the app on your Android device without setting up a development environment:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Go to the [Releases Page](https://github.com/nurdalilah13/DEPIKIRHub/releases).
+2. Download the latest `.apk` file (e.g., `DEPIKIRHub-v1.0.0.apk`).
+3. Open the file on your phone and follow the prompts to install.
+   * *Note: You may need to enable "Install from Unknown Sources" in your Android settings.*
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠 Development Setup (For Contributors)
 
+If you want to run the code locally or contribute to the project:
+
+### 1. Prerequisites
+* [Node.js](https://nodejs.org/) (LTS version)
+* [Expo Go](https://expo.dev/go) app on your phone or an Android Emulator.
+
+### 2. Install Dependencies
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+npx expo start
